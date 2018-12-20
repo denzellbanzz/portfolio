@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+
+}
+
+header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+footer {
+
+    padding: 30px;
+    text-align: center;
+    background:rgb(241, 241, 241);
+
+}
+
+.leftcolumn, .reacties {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.leftcolumn h2, p {
+    text-align: center;
+}
+
+.leftcolumn .card {
+    width: 100%;
+}
+
+.leftcolumn .card img {
+    display: block;
+    margin: 0 auto;
+    /*text-align: center;*/
+    /*width: 100px;*/
+    height: 500px;
+}
+
+.nigell {
+    font-family: 'Indie Flower', cursive;
+}
+
+.card h3 {
+    text-align: center;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.slot {
+    font-family: "Indie Flower"
+}
+
+.reacties {
+
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.bedankjes {
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+}
+
+.bedankjes ul{
+    padding: 30px 10px;
+    border: 1px solid black;
+    border-radius: 25%;
+    display: inline-block;
+    background-image: url("art-rodeo-mobile-wallpaper-travisscott-800x800.png.jpeg");
+    background-size: cover;
+}
+
+.bedankjes ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.bedankjes ul li:hover{
+    background-color: white;
+
+}
+.bedankjes ul li:hover > a{
+    color: black;
+}
+
+
+
+aside {
+   text-align: center;
+   padding-top: 30px;
+
+}
+
+aside li {
+    list-style-type: none;
+    font-family: 'Indie Flower', cursive;
+
+}
+

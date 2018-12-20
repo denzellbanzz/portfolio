@@ -1,0 +1,36 @@
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+th {
+    background-color: black;
+    color: white;}
+
+.familie {
+    background-color: lightskyblue;
+}
+
+.Vrienden{
+    background-color: red;
+}
+
+.Huisdier {
+    background-color: lime;
+}
+.footer {
+    background-color: yellow;
+}
+

@@ -1,0 +1,48 @@
+.flex-container: {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-height: 120vh;
+    flex-direction: row;
+
+}
+
+header {
+    background-color: dimgrey;
+    font-family: cursive;
+
+}
+
+body {
+    background-color: white;
+}
+
+.flex-item {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    border: 18px solid red;
+    box-shadow: 3px 3px 8px 0px rgb(0, 0, 0, 0.4);
+    max-width: 50vh;
+
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+footer {
+    background-color: dimgrey;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer ul {
+
+    list-style: none;
+
+}
